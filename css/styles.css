@@ -48,5 +48,6 @@ h1 {
 
 .title-img {
     transform: rotate(25deg);
-    width: 60%;
+    height: auto;
+    width: 50%;
 }
