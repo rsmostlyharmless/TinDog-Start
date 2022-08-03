@@ -9,6 +9,10 @@ h1 {
     line-height: 1.5;
 }
 
+p {
+    line-height: 2;
+}
+
 #title {
     background-color: #ff4c68;
 }
@@ -50,4 +54,32 @@ h1 {
     transform: rotate(25deg);
     height: auto;
     width: 50%;
+}
+
+/* features area */
+
+#features {
+    text-align: center;
+}
+
+.feature-boxes {
+    justify-content: space-between;
+    margin: 0;
+}
+
+.feature-info {
+    max-width: 30%;
+}
+
+.fa-solid {
+    color: #ff4c68;
+    font-size: 4rem;
+}
+
+.fa-solid:hover {
+    color: slateblue;
+}
+
+.feature-h3 {
+    padding: 6% 0 3%;
 }
