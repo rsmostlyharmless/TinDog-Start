@@ -68,8 +68,10 @@ p {
 }
 
 .feature-info {
-    max-width: 30%;
+    padding: 3% 5% 3%;
 }
+
+/* Icons + text */
 
 .fa-solid {
     color: #ff4c68;
@@ -81,5 +83,11 @@ p {
 }
 
 .feature-h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
     padding: 6% 0 3%;
+}
+
+.feature-p {
+    color: #8f8f8f;
 }
