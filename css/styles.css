@@ -9,12 +9,19 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 p {
     line-height: 2;
 }
 
 #title {
     background-color: #ff4c68;
+    text-align: center;
 }
 
 .container-fluid {
@@ -90,4 +97,30 @@ p {
 
 .feature-p {
     color: #8f8f8f;
+}
+
+/* TESTIMONIAL */
+
+#testimonials {
+    background-color: #ff4c68;
+    color: rgb(255, 255, 255);
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#press {
+    background-color: #ff4c68;
+    padding: 3%;
+    text-align: center;
+}
+
+.press-img {
+    margin: 20px 5% 50px;
+    width: 10%;
 }
