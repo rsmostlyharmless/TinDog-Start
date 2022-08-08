@@ -104,14 +104,17 @@ p {
 #testimonials {
     background-color: #ff4c68;
     color: rgb(255, 255, 255);
-    padding: 7% 15%;
     text-align: center;
 }
 
 .testimonial-img {
     border-radius: 100%;
     margin: 20px;
-    width: 10%;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 #press {
