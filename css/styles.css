@@ -132,16 +132,21 @@ p {
     width: 10%;
 }
 
+/* PRICING */
+
 #pricing {
+    padding: 100px;
     text-align: center;
 }
 
-.pricing-row {
-    justify-content: space-evenly;
+.pricing-card-area {
+    justify-content: center;
 }
 
-
 .pricing-cards {
-    margin: 3% 0;
-    width: 22%;
+    padding: 3% 2%;
+}
+
+.card-btns {
+    padding: 1% 40%;
 }
