@@ -21,8 +21,8 @@ p {
 
 #title {
     background-color: #ff4c68;
-    /* position: relative; */
     text-align: center;
+    /* position: relative; */
 }
 
 .container-fluid {
@@ -65,7 +65,6 @@ p {
 .title-img {
     position: absolute;
     transform: rotate(25deg);
-    width: 20%;
     right: 23%;
     /* z-index: 0; */
 }
@@ -154,4 +153,21 @@ p {
 
 .card-btns {
     padding: 1% 40%;
+}
+
+@media (max-width: 1250px) {
+
+    .title-img {
+        position: static;
+        text-align: center;
+        transform: rotate(0);
+    }
+
+    .title-h1-btn {
+        text-align: center;
+    }
+
+    .download {
+        margin: 5% 0 5%;
+    }
 }
