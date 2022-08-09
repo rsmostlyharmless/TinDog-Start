@@ -131,3 +131,17 @@ p {
     margin: 20px 5% 50px;
     width: 10%;
 }
+
+#pricing {
+    text-align: center;
+}
+
+.pricing-row {
+    justify-content: space-evenly;
+}
+
+
+.pricing-cards {
+    margin: 3% 0;
+    width: 22%;
+}
