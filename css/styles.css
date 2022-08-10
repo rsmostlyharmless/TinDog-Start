@@ -2,28 +2,59 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 p {
     line-height: 2;
 }
 
-#title {
+/* same colors */
+
+#title, #testimonials, #press, #cta {
     background-color: #ff4c68;
-    text-align: center;
-    /* position: relative; */
 }
+
+#features, #footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-logo, .features-logo {
+    color: #ff4c68;
+}
+
+#testimonials, .title-h1, .cta-h3 {
+    color: rgb(255, 255, 255);
+}
+
+.feature-p, .footer-p {
+    color: #8f8f8f;
+}
+
+/* text styles */
+
+#title, #features, #testimonials, #press, #pricing, #cta, #footer {
+    text-align: center;
+}
+
+.navbar-brand, .title-h1, .feature-h3, .cta-h3 {
+    font-weight: bold;
+}
+
+.title-h1, .text-h2, .cta-h3 {
+    line-height: 1.5;
+}
+
+.footer-logo, .feature-h3 {
+    font-size: 1.5rem;
+}
+
+.text-h2 {
+    font-size: 3rem;
+}
+
+/* Title */
 
 .container-fluid {
     padding: 3% 15% 5%;
@@ -38,7 +69,6 @@ p {
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
-    font-weight: bold;
 }
 
 .nav-item {
@@ -50,7 +80,11 @@ p {
     font-weight: 100;
 }
 
-/* Download Buttons + h1*/
+/* Download Buttons + h1 */
+
+.title-h1 {
+    font-size: 3.5rem;
+}
 
 .title-h1-btn {
     text-align: left;
@@ -66,16 +100,15 @@ p {
     position: absolute;
     transform: rotate(25deg);
     right: 23%;
-    /* z-index: 0; */
+}
+
+/* main-content for position over img */
+
+.main-content {
+    position: relative;
 }
 
 /* features area */
-
-#features {
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    text-align: center;
-}
 
 .feature-boxes {
     justify-content: space-between;
@@ -89,7 +122,6 @@ p {
 /* Icons + text */
 
 .features-logo {
-    color: #ff4c68;
     font-size: 4rem;
 }
 
@@ -98,22 +130,10 @@ p {
 }
 
 .feature-h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
     padding: 6% 0 3%;
 }
 
-.feature-p {
-    color: #8f8f8f;
-}
-
 /* TESTIMONIAL */
-
-#testimonials {
-    background-color: #ff4c68;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
 
 .testimonial-img {
     border-radius: 100%;
@@ -126,9 +146,7 @@ p {
 }
 
 #press {
-    background-color: #ff4c68;
     padding: 3%;
-    text-align: center;
 }
 
 .press-img {
@@ -139,9 +157,7 @@ p {
 /* PRICING */
 
 #pricing {
-    padding: 100px;
-    text-align: center;
-}
+    padding: 100px;}
 
 .pricing-card-area {
     justify-content: center;
@@ -158,16 +174,11 @@ p {
 /* CTA */
 
 #cta {
-    background-color: #ff4c68;
     padding: 5% 32% 5% 32%;
-    text-align: center;
 }
 
 .cta-h3 {
-    color: rgb(255, 255, 255);
     font-size: 2.3rem;
-    font-weight: bold;
-    line-height: 1.5;
     margin: 3%;
 }
 
@@ -176,23 +187,15 @@ p {
 }
 
 #footer {
-    background-color: rgb(255, 255, 255);
     padding: 5% 40% 3.8%;
-    text-align: center;
 }
 
 .footer-logo {
-    font-size: 1.5rem;
-    color: #ff4c68;
     margin: 0 2% 5%;
 }
 
 .footer-logo:hover {
     color: slateblue;
-}
-
-.footer-p {
-    color: rgb(185, 185, 185);
 }
 
 @media (max-width: 1250px) {
