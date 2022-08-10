@@ -56,7 +56,7 @@ p {
     text-align: left;
 }
 
-.download {
+.title-download {
     margin: 5% 5% 5% 0;
 }
 
@@ -155,6 +155,26 @@ p {
     padding: 1% 40%;
 }
 
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 32% 5% 32%;
+    text-align: center;
+}
+
+.cta-h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 3%;
+}
+
+.cta-download {
+    margin: 3% 2%;
+}
+
 @media (max-width: 1250px) {
 
     .title-img {
@@ -167,7 +187,7 @@ p {
         text-align: center;
     }
 
-    .download {
+    .title-download {
         margin: 5% 0 5%;
     }
 }
