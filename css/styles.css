@@ -88,12 +88,12 @@ p {
 
 /* Icons + text */
 
-.fa-solid {
+.features-logo {
     color: #ff4c68;
     font-size: 4rem;
 }
 
-.fa-solid:hover {
+.features-logo:hover {
     color: slateblue;
 }
 
@@ -173,6 +173,25 @@ p {
 
 .cta-download {
     margin: 3% 2%;
+}
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    padding: 2% 40% 0.8%;
+    text-align: center;
+}
+
+.footer-logo {
+    color: #ff4c68;
+    margin: 0 2% 5%;
+}
+
+.footer-logo:hover {
+    color: slateblue;
+}
+
+.footer-p {
+    color: rgb(185, 185, 185);
 }
 
 @media (max-width: 1250px) {
