@@ -10,22 +10,19 @@ p {
     line-height: 2;
 }
 
-/* same colors */
+/* colored sections & text */
 
-#title, #testimonials, #press, #cta {
+.pink-section {
+    color: rgb(255, 255, 255);
     background-color: #ff4c68;
 }
 
-#features, #footer {
+.white-section {
     background-color: rgb(255, 255, 255);
 }
 
 .footer-logo, .features-logo {
     color: #ff4c68;
-}
-
-#testimonials, .title-h1, .cta-h3 {
-    color: rgb(255, 255, 255);
 }
 
 .feature-p, .footer-p {
@@ -34,7 +31,7 @@ p {
 
 /* text styles */
 
-#title, #features, #testimonials, #press, #pricing, #cta, #footer {
+.pink-section, .white-section {
     text-align: center;
 }
 
